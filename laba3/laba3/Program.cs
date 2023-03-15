@@ -1,7 +1,20 @@
 ﻿using System;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace ComplexNumber
 {
+    public class ComplexSerializer
+    {
+        public double _real;
+        public double _imaginary;
+        
+        public ComplexSerializer(double real, double imaginary)
+        {
+            _real = real;
+            _imaginary = imaginary;
+        }
+    }
     public class Complex
     {
         private double _real;
@@ -99,10 +112,28 @@ namespace ComplexNumber
             }
             return roots;
         }
+        
+        async public void SaveToJson(string fileName)
+        {
+            ComplexSerializer complexSerializer = new ComplexSerializer(GetReal(), GetImaginary());
+            var json = JsonConvert.SerializeObject(complexSerializer);
+            Console.WriteLine(json);
+            File.WriteAllText(fileName, json);
+        }
+
+        public static Complex LoadFromJson(string path)
+        {
+            var json = File.ReadAllText(path);
+            var complex = JsonConvert.DeserializeObject<ComplexSerializer>(json);
+            return new Complex(complex._real, complex._imaginary);
+        }
     }
+    
+    
 
     class Program
     {
+        
         static void Main(string[] args)
         {
             Complex z1 = new Complex(3, 4);
@@ -135,6 +166,10 @@ namespace ComplexNumber
 
             Complex exponentialForm = z1.ToExponentialForm();
             Console.WriteLine($"Exponential form of z1: ({exponentialForm.GetReal()}, {exponentialForm.GetImaginary()})");
+            
+            // TASK 2
+            z1.SaveToJson("complex.json");
+            
         }
     }
 }   

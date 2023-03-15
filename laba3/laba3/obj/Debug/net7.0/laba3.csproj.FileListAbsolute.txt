@@ -13,3 +13,5 @@
 /Users/devheniik/Desktop/university/2 sem/prog/labs/laba3/laba3/obj/Debug/net7.0/laba3.pdb
 /Users/devheniik/Desktop/university/2 sem/prog/labs/laba3/laba3/obj/Debug/net7.0/laba3.genruntimeconfig.cache
 /Users/devheniik/Desktop/university/2 sem/prog/labs/laba3/laba3/obj/Debug/net7.0/ref/laba3.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba3/laba3/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba3/laba3/obj/Debug/net7.0/laba3.csproj.CopyComplete
