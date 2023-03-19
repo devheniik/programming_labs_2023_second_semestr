@@ -9,16 +9,12 @@ class Program {
     {
         List<int> numbers = new List<int> { 1, 2, 3, 2, 1, 4, 5, 4, 6 };
         Dictionary<int, int> frequency = new Dictionary<int, int>();
-
         
-        // Counting the number of occurrences of each element
+        // Counting the number of occurrences of each element 
         foreach (int number in numbers) {
-            if (frequency.ContainsKey(number)) {
-                frequency[number]++;
-            }
-            else {
-                frequency[number] = 1;
-            }
+            frequency.TryGetValue(number, out int value);
+            value++;
+            frequency[number] = value;
         }
 
         int pairsCount = 0;
