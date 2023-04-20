@@ -1,0 +1,15 @@
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/bin/Debug/net7.0/laba4.1
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/bin/Debug/net7.0/laba4.1.deps.json
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/bin/Debug/net7.0/laba4.1.runtimeconfig.json
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/bin/Debug/net7.0/laba4.1.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/bin/Debug/net7.0/laba4.1.pdb
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.csproj.AssemblyReference.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.AssemblyInfoInputs.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.AssemblyInfo.cs
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.csproj.CoreCompileInputs.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/refint/laba4.1.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.pdb
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/laba4.1.genruntimeconfig.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba4.1/laba4.1/obj/Debug/net7.0/ref/laba4.1.dll

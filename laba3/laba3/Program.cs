@@ -1,6 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 using System.IO;
+using System.Text.Json.Serialization;
 
 namespace ComplexNumber
 {
@@ -19,6 +20,7 @@ namespace ComplexNumber
     {
         private double _real;
         private double _imaginary;
+        private readonly double _real1;
 
         public Complex(double real, double imaginary)
         {
@@ -26,6 +28,20 @@ namespace ComplexNumber
             _imaginary = imaginary;
         }
 
+        public double Real
+        {
+            get => _real;
+            set => _real = value;
+        }
+
+        
+        [JsonIgnore]
+        public double Imaginary
+        {
+            get => _imaginary;
+            set => _imaginary = value;
+        }
+        
         // Геттери
         public double GetReal()
         {
@@ -113,10 +129,10 @@ namespace ComplexNumber
             return roots;
         }
         
-        async public void SaveToJson(string fileName)
+        public void SaveToJson(string fileName)
         {
-            ComplexSerializer complexSerializer = new ComplexSerializer(GetReal(), GetImaginary());
-            var json = JsonConvert.SerializeObject(complexSerializer);
+            //ComplexSerializer complexSerializer = new ComplexSerializer(GetReal(), GetImaginary());
+            var json = JsonConvert.SerializeObject(this);
             Console.WriteLine(json);
             File.WriteAllText(fileName, json);
         }
@@ -124,8 +140,8 @@ namespace ComplexNumber
         public static Complex LoadFromJson(string path)
         {
             var json = File.ReadAllText(path);
-            var complex = JsonConvert.DeserializeObject<ComplexSerializer>(json);
-            return new Complex(complex._real, complex._imaginary);
+            return JsonConvert.DeserializeObject<Complex>(json);
+            //return new Complex(complex._real, complex._imaginary);
         }
     }
     
