@@ -1,0 +1,15 @@
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.csproj.AssemblyReference.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.AssemblyInfoInputs.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.AssemblyInfo.cs
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.csproj.CoreCompileInputs.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/bin/Debug/net7.0/laba5.1.0
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/bin/Debug/net7.0/laba5.1.0.deps.json
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/bin/Debug/net7.0/laba5.1.0.runtimeconfig.json
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/bin/Debug/net7.0/laba5.1.0.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/bin/Debug/net7.0/laba5.1.0.pdb
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/refint/laba5.1.0.dll
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.pdb
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/laba5.1.0.genruntimeconfig.cache
+/Users/devheniik/Desktop/university/2 sem/prog/labs/laba5.1.0/laba5.1.0/obj/Debug/net7.0/ref/laba5.1.0.dll
